@@ -14,7 +14,7 @@ endfunction
 
 " Returns processed args (if you need to do any processing)
 function! test#solidity#truffle#build_args(args)
-  return a:args
+  return ['test'] + a:args
 endfunction
 
 " Returns the executable of your test runner
