@@ -1,5 +1,5 @@
 if !exists('g:test#solidity#truffle#file_pattern')
-  let g:test#solidity#truffle#file_pattern = '\vTest.*\.sol$'
+  let g:test#solidity#truffle#file_pattern = '\vTest.*\.(sol|js)$'
 endif
 
 " Returns true if the given file belongs to your test runner
